@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables and secrets
+*.env
+.env.*
+config/settings_local.py
+instance/
+*.pem
+*.key
+
+# Logs and database files
+logs/
+*.log
+*.sqlite3
+*.db
+
+# Cache files
+.cache/
+pip-wheel-metadata/
+
+# Flask build artifacts
+build/
+dist/
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+
+# Pytest and testing artifacts
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using frontend with Flask)
+node_modules/
+
+# Docker and deployment artifacts
+*.dockerfile
+docker-compose.override.yml
+
+# Ignore compiled files
+*.so
+*.o
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+
+# Ignore Celery and task queue files
+celerybeat-schedule
+celerybeat.pid
+
+# Ignore gunicorn logs
+gunicorn.log
+gunicorn.error.log
