@@ -11,6 +11,7 @@ To obtain the `AZURE_ACCESS_TOKEN`, use the following commands:
    ```
 
 2. Get the access token:
+
    ```sh
    az account get-access-token --resource=https://management.azure.com
    ```
@@ -23,6 +24,8 @@ To find your `AZURE_SUBSCRIPTION_ID`, visit the [Azure Portal Subscriptions Page
 
 You can explore all free services available for 12 months and on a monthly basis by visiting the [Azure Portal Free Services Page](https://portal.azure.com/#view/Microsoft_Azure_Billing/FreeServicesBlade).
 
-### Microsoft Azure Founder's hub
+### Microsoft Azure Founder's Hub
 
 To know the remaining credit and services offered to founders, visit the [Microsoft for Startups Founders Hub](https://foundershub.startups.microsoft.com/).
+
+To check sponsorship usage, visit [Microsoft Azure Sponsorships Usage](https://www.microsoftazuresponsorships.com/Usage).
